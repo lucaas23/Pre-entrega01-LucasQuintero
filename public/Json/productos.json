@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "nombre": "One Million",
+        "marca": "Paco Rabanne",
+        "medida": "100ml",
+        "precio": 5600,
+        "stock": 30,
+        "img": "one.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Black xs",
+        "marca": "Paco Rabanne",
+        "medida": "50ml",
+        "precio": 4600,
+        "stock": 20,
+        "img": "black.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "The One",
+        "marca": "Dolce&Gabbana",
+        "medida": "100ml",
+        "precio": 5600,
+        "stock": 15,
+        "img": "the one.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Invitus",
+        "marca": "Paco Rabanne",
+        "medida": "100ml",
+        "precio": 5600,
+        "stock": 30,
+        "img": "invictus.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Creed",
+        "marca": "Adventus",
+        "medida": "50ml",
+        "precio": 4600,
+        "stock": 7,
+        "img": "creed.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Olympea",
+        "marca": "Paco Rabanne",
+        "medida": "100ml",
+        "precio": 4600,
+        "stock": 20,
+        "img": "olympea.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "La vida es bella",
+        "marca": "Lancome",
+        "medida": "100ml",
+        "precio": 5600,
+        "stock": 10,
+        "img": "vida.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Ultra Male",
+        "marca": "Jean Paul Gaultier ",
+        "medida": "100ml",
+        "precio": 5600,
+        "stock": 30,
+        "img": "ultramale.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "L´Interdit",
+        "marca": "Givenchy",
+        "medida": "50ml",
+        "precio": "4600",
+        "stock": 21,
+        "img": "interdit.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Lady Million",
+        "marca": "Paco Rabanne",
+        "medida": "100ml",
+        "precio": 5600,
+        "stock": 25,
+        "img": "lady.jpg"
+    }
+    
+]

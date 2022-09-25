@@ -1,0 +1,12 @@
+.divGeneral {
+  background-color: black;
+  color: gray;
+}
+
+.cardProducto {
+  width: 18rem;
+  margin: 4px;
+}
+#navbar{
+  background-color: black;
+}
