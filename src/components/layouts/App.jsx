@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Navbar from './content/Navbar';
-import Form from './layouts/Form';
-import Contador from './layouts/Contador';
+import Form from './Form';
+import Contador from './Contador';
 import '../styles/App.css'
-import Home from './content/Home';
+import Home from '../content/Home';
 
 const App = () => {
   const [state, setstate] = useState(0);

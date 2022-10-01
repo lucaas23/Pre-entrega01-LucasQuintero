@@ -2,9 +2,13 @@ import React from 'react';
 import Form from '../layouts/Form';
 import Dropdow from '../layouts/Dropdow';
 import Secciones from '../layouts/Secciones';
+import CartWidget from './CartWidget';
+
+
+
 
 const Navbar = ({contador}) => {
-  const listDrowdon = ["Hombre", "Mujer", "Unise",]
+  const listDrowdon = ["Hombre", "Mujer", "Unisex",]
   
     return (
         <> 
@@ -21,7 +25,7 @@ const Navbar = ({contador}) => {
                     <Dropdow lista={listDrowdon}/>
                   </ul>
                   <Form busqueda="Buscar Producto"/>
-
+                  <CartWidget/> 
                 </div>
               </div>
             </nav>
