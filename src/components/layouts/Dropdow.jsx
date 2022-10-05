@@ -1,18 +1,26 @@
-import React from 'react';
-
+import { Link } from "react-router-dom";
+import {useState, useEffect} from 'react'
 const Dropdow = ({lista}) => {
+  const [list, setList] = useState([]);
+  useEffect(() => {
+    const listaDrop = lista.map((categoria, indice) => 
+      <Link key={indice} className='dropdown-item' to={`/categoria/${indice + 1}`}>{categoria}</Link>
+    )
+    setList(listaDrop)
+    
+  }, []);
+   
+
     return (
         <>
           <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Secciones</a>
+            <button className="nav-link dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              <i className="fas fa-list"></i>
+            </button>
           <div className="dropdown-menu">
-            <a className="dropdown-item" href="#">{lista[0]}</a>
-            <a className="dropdown-item" href="#">{lista[1]}</a>
-            <a className="dropdown-item" href="#">{lista[2]}</a>
-            <div className="dropdown-divider" />
-            <a className="dropdown-item" href="#">{lista[3]}</a>
+            {list}
           </div>
-        </li>  
+          </li>  
         </>
     );
 }
